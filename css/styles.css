@@ -266,6 +266,7 @@ footer{
     border:4px solid rgba(255,255,255,0.45);
     box-shadow:0 4px 10px rgba(0,0,0,0.28);
     flex:0 0 auto;
+    overflow: hidden;       /* 🔑 THIS IS IMPORTANT */
 }
 .lead-photo-img{
     width:160px;
